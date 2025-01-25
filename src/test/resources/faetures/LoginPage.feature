@@ -16,7 +16,7 @@ Feature: Login Tests
     When type "<user>" in username textbox
     When type "<pass>" in password textbox
     When Click on login btn on login page
-    Then You should login to your account and see your "<message>"
+    Then You should login to your account and see  your "<message>"
     Examples:
       | user                  |  | pass   |  | message     |
       | atafarivar@email.com  |  | 123456 |  | Hello Ata   |
